@@ -5,6 +5,7 @@
 package model;
 
 import java.awt.Image;
+import java.io.File;
 
 /**
  *
@@ -22,7 +23,7 @@ public class EmployeeDetails {
     private String Position_Title;
     private int Cell_Phone_number;
     private String Email;
-    private Image Photo;
+    private File Photo;
 
     public String getName() {
         return Name;
@@ -104,11 +105,11 @@ public class EmployeeDetails {
         this.Email = Email;
     }
 
-    public Image getPhoto() {
+    public File getPhoto() {
         return Photo;
     }
 
-    public void setPhoto(Image Photo) {
+    public void setPhoto(File Photo) {
         this.Photo = Photo;
     }
     
@@ -116,6 +117,8 @@ public class EmployeeDetails {
     public  String toString(){
         return Name;
     }
+
+   
     
     
     
