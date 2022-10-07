@@ -377,7 +377,7 @@ public class ViewJPanel extends javax.swing.JPanel {
             
         }
         DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
-        System.out.println(model.getValueAt(selectedRowIndex,0 ));
+        
         EmployeeDetails selectedEmployee = (EmployeeDetails)model.getValueAt(selectedRowIndex,0 );
 //        
 //        jTextField1.setText(String.valueOf(selectedEmployee.getName()));
@@ -402,14 +402,14 @@ public class ViewJPanel extends javax.swing.JPanel {
         int selecteRow = jTable1.getSelectedRow();
 //      DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
         jTextField1.setText(selectedEmployee.getName());
-        jTextField2.setText(String.valueOf(selectedEmployee.getEmployee_ID()));
-        jTextField3.setText(String.valueOf(selectedEmployee.getAge()));
+        jTextField2.setText(selectedEmployee.getEmployee_ID());
+        jTextField3.setText(selectedEmployee.getAge());
         jTextField4.setText(selectedEmployee.getGender());
         jTextField5.setText(selectedEmployee.getStart_date());
-        jTextField6.setText(String.valueOf(selectedEmployee.getLevel()));
+        jTextField6.setText(selectedEmployee.getLevel());
         jTextField7.setText(selectedEmployee.getTeam_INFO());
         jTextField8.setText(selectedEmployee.getPosition_Title());
-        jTextField9.setText(String.valueOf(selectedEmployee.getCell_Phone_number()));
+        jTextField9.setText(selectedEmployee.getCell_Phone_number());
         jTextField10.setText(selectedEmployee.getEmail());
         jTextField11.setText(selectedEmployee.getPhoto().getAbsolutePath());
         ImageIcon imIco = new ImageIcon(selectedEmployee.getPhoto().toString());
@@ -473,14 +473,14 @@ public class ViewJPanel extends javax.swing.JPanel {
     private void updateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateActionPerformed
         // TODO add your handling code here:
         String Name = jTextField1.getText();
-        int Employee_Id = Integer.parseInt(jTextField2.getText());
-        int Age = Integer.parseInt(jTextField3.getText());
+        String Employee_Id = jTextField2.getText();
+        String Age = jTextField3.getText();
         String Gender = jTextField4.getText();
         String Date = jTextField5.getText();
-        int Level = Integer.parseInt(jTextField6.getText());
+        String Level = jTextField6.getText();
         String Team_Info = jTextField7.getText();
         String Position_Title = jTextField8.getText();
-        int Cell_Phone = Integer.parseInt(jTextField9.getText());
+        String Cell_Phone = jTextField9.getText();
         String Email = jTextField10.getText();
         File path = new File(jTextField11.getText());
         

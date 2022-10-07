@@ -14,14 +14,14 @@ import java.io.File;
 public class EmployeeDetails {
     
     private String Name;
-    private int Employee_ID;
-    private int Age;
+    private String Employee_ID;
+    private String Age;
     private String Gender;
     private String Start_date;
-    private int Level;
+    private String Level;
     private String Team_INFO;
     private String Position_Title;
-    private int Cell_Phone_number;
+    private String Cell_Phone_number;
     private String Email;
     private File Photo;
 
@@ -33,19 +33,19 @@ public class EmployeeDetails {
         this.Name = Name;
     }
 
-    public int getEmployee_ID() {
+    public String getEmployee_ID() {
         return Employee_ID;
     }
 
-    public void setEmployee_ID(int Employee_ID) {
+    public void setEmployee_ID(String Employee_ID) {
         this.Employee_ID = Employee_ID;
     }
 
-    public int getAge() {
+    public String getAge() {
         return Age;
     }
 
-    public void setAge(int Age) {
+    public void setAge(String Age) {
         this.Age = Age;
     }
 
@@ -65,11 +65,11 @@ public class EmployeeDetails {
         this.Start_date = Start_date;
     }
 
-    public int getLevel() {
+    public String getLevel() {
         return Level;
     }
 
-    public void setLevel(int Level) {
+    public void setLevel(String Level) {
         this.Level = Level;
     }
 
@@ -89,11 +89,11 @@ public class EmployeeDetails {
         this.Position_Title = Position_Title;
     }
 
-    public int getCell_Phone_number() {
+    public String getCell_Phone_number() {
         return Cell_Phone_number;
     }
 
-    public void setCell_Phone_number(int Cell_Phone_number) {
+    public void setCell_Phone_number(String Cell_Phone_number) {
         this.Cell_Phone_number = Cell_Phone_number;
     }
 

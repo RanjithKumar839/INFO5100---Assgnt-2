@@ -101,6 +101,15 @@ public class CreateJPanel extends javax.swing.JPanel {
 
         jLabel12.setText("Email");
 
+        jTextField1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                jTextField1KeyReleased(evt);
+            }
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextField1KeyTyped(evt);
+            }
+        });
+
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField6ActionPerformed(evt);
@@ -307,19 +316,59 @@ public class CreateJPanel extends javax.swing.JPanel {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        
+        
         String Name = jTextField1.getText();
-        int Employee_Id = Integer.parseInt(jTextField2.getText());
-        int Age = Integer.parseInt(jTextField3.getText());
+        String Employee_Id = jTextField2.getText();
+        String Age = jTextField3.getText();
         String Gender = jTextField4.getText();
         String Date = jTextField5.getText();
-        int Level = Integer.parseInt(jTextField6.getText());
+        String Level = jTextField6.getText();
         String Team_Info = jTextField7.getText();
         String Position_Title = jTextField8.getText();
-        int Cell_Phone = Integer.parseInt(jTextField9.getText());
+        String Cell_Phone = jTextField9.getText();
         String Email = jTextField10.getText();
         File path = new File(jTextField11.getText());
         
+        
+        if (Name.equals("")) {
+            JOptionPane.showMessageDialog(this,"Employee Name is Mandatory");
+        
+        }else if (Employee_Id.equals("")){
+            JOptionPane.showMessageDialog(this,"Employee_Id is Mandatory");
+            
+        }else if (Age.equals("")) {
+            JOptionPane.showMessageDialog(this,"Employee Age is Mandatory");
+            
+        }else if (Gender.equals("")) {
+            JOptionPane.showMessageDialog(this,"Employee Gender is Mandatory");
+            
+        }else if (Date.equals("")) {
+            JOptionPane.showMessageDialog(this,"Employee Start_Date is Mandatory");
+            
+        }else if (Level.equals("")) {
+            JOptionPane.showMessageDialog(this,"Employee Level is Mandatory");
+            
+        }else if (Team_Info.equals("")) {
+            JOptionPane.showMessageDialog(this,"Employee Team_Info is Mandatory");
+            
+        }else if (Position_Title.equals("")) {
+            JOptionPane.showMessageDialog(this,"Employee Pposition_Title is Mandatory");
+            
+        }else if (Cell_Phone.equals("")) {
+            JOptionPane.showMessageDialog(this,"Employee Cell_Phone is Mandatory");
+            
+        }else if (Email.equals("")) {
+            JOptionPane.showMessageDialog(this,"Employee Emaial is Mandatory");
+            
+        } else{
+        
+        
+        
+        
+        
         EmployeeDetails ed = history.addNewEmployee();
+        
         
         ed.setName(Name);
         ed.setEmployee_ID(Employee_Id);
@@ -350,9 +399,23 @@ public class CreateJPanel extends javax.swing.JPanel {
         label.setIcon(null);
         
         
+
+        }
+
         
         
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jTextField1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1KeyReleased
+        // TODO add your handling code here:
+        
+        
+       
+    }//GEN-LAST:event_jTextField1KeyReleased
+
+    private void jTextField1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1KeyTyped
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1KeyTyped
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
