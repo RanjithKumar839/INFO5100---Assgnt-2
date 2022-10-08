@@ -39,6 +39,10 @@ public class MainJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        BtnArea.setBackground(new java.awt.Color(153, 153, 153));
+
+        CrtButton.setBackground(new java.awt.Color(51, 51, 51));
+        CrtButton.setForeground(new java.awt.Color(255, 255, 255));
         CrtButton.setText("Create");
         CrtButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -46,6 +50,8 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
+        viewbtn.setBackground(new java.awt.Color(51, 51, 51));
+        viewbtn.setForeground(new java.awt.Color(255, 255, 255));
         viewbtn.setText("View/Update");
         viewbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,6 +80,8 @@ public class MainJFrame extends javax.swing.JFrame {
         );
 
         SplitPane.setLeftComponent(BtnArea);
+
+        WorkArea.setBackground(new java.awt.Color(204, 204, 204));
 
         javax.swing.GroupLayout WorkAreaLayout = new javax.swing.GroupLayout(WorkArea);
         WorkArea.setLayout(WorkAreaLayout);

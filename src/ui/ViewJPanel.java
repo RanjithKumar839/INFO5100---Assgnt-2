@@ -89,6 +89,9 @@ public class ViewJPanel extends javax.swing.JPanel {
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 
+        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+
+        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 3, 18)); // NOI18N
         jLabel1.setText("Employee Profiles");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -109,6 +112,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         });
         jScrollPane2.setViewportView(jTable1);
 
+        view.setFont(new java.awt.Font("Georgia", 3, 12)); // NOI18N
         view.setText("View");
         view.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -116,6 +120,8 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
+        delete.setBackground(new java.awt.Color(255, 102, 102));
+        delete.setFont(new java.awt.Font("Georgia", 3, 12)); // NOI18N
         delete.setText("Delete");
         delete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,16 +129,22 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel2.setText("Name");
 
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel3.setText("Employee ID");
 
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel4.setText("Age");
 
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel5.setText("Gender");
 
+        jLabel6.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel6.setText("Start Date  (MM-DD-YYYY)");
 
+        jLabel7.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel7.setText("Level");
 
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
@@ -141,8 +153,10 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel8.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel8.setText("Team Info");
 
+        jLabel9.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel9.setText("Position Title");
 
         jTextField8.addActionListener(new java.awt.event.ActionListener() {
@@ -151,11 +165,14 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel10.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("Contact Info");
 
+        jLabel11.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel11.setText("Cell Phone");
 
+        jLabel12.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel12.setText("Email");
 
         jTextField9.addActionListener(new java.awt.event.ActionListener() {
@@ -164,10 +181,13 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel13.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel13.setText("Photo");
 
         jTextField11.setMaximumSize(new java.awt.Dimension(7, 19));
 
+        update.setBackground(new java.awt.Color(153, 255, 153));
+        update.setFont(new java.awt.Font("Georgia", 3, 12)); // NOI18N
         update.setText("Update");
         update.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -175,6 +195,7 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
+        upload.setFont(new java.awt.Font("Georgia", 3, 12)); // NOI18N
         upload.setText("Upload");
         upload.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -193,6 +214,7 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
+        jButton1.setFont(new java.awt.Font("Georgia", 3, 12)); // NOI18N
         jButton1.setText("Search");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -200,6 +222,8 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(255, 102, 102));
+        jButton2.setFont(new java.awt.Font("Georgia", 3, 12)); // NOI18N
         jButton2.setText("Cancel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -207,8 +231,10 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel14.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel14.setText("Search");
 
+        jLabel15.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel15.setText("Country Code");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -223,7 +249,20 @@ public class ViewJPanel extends javax.swing.JPanel {
                         .addComponent(jLabel1))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(107, 107, 107)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel15))
+                                .addGap(69, 69, 69)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGap(10, 10, 10)
+                                        .addComponent(update))))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -243,29 +282,20 @@ public class ViewJPanel extends javax.swing.JPanel {
                                     .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(54, 54, 54)
-                                        .addComponent(label, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(67, 67, 67)
-                                        .addComponent(upload))))
-                            .addComponent(jLabel13)
-                            .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(220, 220, 220)
-                                .addComponent(update))
+                                .addGap(18, 18, 18)
+                                .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel15)
-                                .addGap(144, 144, 144)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(jTextField11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, 225, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addGap(54, 54, 54)
+                                .addComponent(upload))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(40, 40, 40)
+                                .addComponent(label, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(76, 76, 76)
+                                .addComponent(jLabel13))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(126, 126, 126)
                         .addComponent(jLabel14)
@@ -283,7 +313,7 @@ public class ViewJPanel extends javax.swing.JPanel {
                         .addComponent(view)
                         .addGap(64, 64, 64)
                         .addComponent(delete)))
-                .addContainerGap(122, Short.MAX_VALUE))
+                .addContainerGap(108, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -303,7 +333,7 @@ public class ViewJPanel extends javax.swing.JPanel {
                             .addComponent(view)
                             .addComponent(delete))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel2)
@@ -327,43 +357,47 @@ public class ViewJPanel extends javax.swing.JPanel {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel7)
-                                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel8)
+                                    .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel9)
+                                    .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel10))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(label, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(26, 26, 26)
-                                .addComponent(upload)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel8)
-                            .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel9)
-                            .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel10))
+                                .addComponent(upload)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel13))))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jButton1)
                         .addComponent(jButton2)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel15)
-                    .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel11)
-                    .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel12))
-                .addGap(13, 13, 13)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel13)
-                    .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(update)
-                .addGap(21, 21, 21))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
+                        .addComponent(jLabel15)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel11)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel12)
+                        .addGap(94, 94, 94))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(update)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
 
         jScrollPane1.setViewportView(jPanel1);
@@ -376,7 +410,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 646, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -387,7 +421,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         
         if (selectedRowIndex<0) {
             
-            JOptionPane.showMessageDialog(this, "please select a row to view");
+            JOptionPane.showMessageDialog(this, "Please select a row to view");
             return;
             
         }
@@ -416,19 +450,19 @@ public class ViewJPanel extends javax.swing.JPanel {
         
 //        int selecteRow = jTable1.getSelectedRow();
 //      DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
-        jTextField1.setText(selectedEmployee.getName());
-        jTextField2.setText(selectedEmployee.getEmployee_ID());
-        jTextField3.setText(selectedEmployee.getAge());
-        jTextField4.setText(selectedEmployee.getGender());
-        jTextField5.setText(selectedEmployee.getStart_date());
-        jTextField6.setText(selectedEmployee.getLevel());
-        jTextField7.setText(selectedEmployee.getTeam_INFO());
-        jTextField8.setText(selectedEmployee.getPosition_Title());
-        jTextField13.setText(selectedEmployee.getCountry_Code());
-        jTextField9.setText(selectedEmployee.getCell_Phone_number());
-        jTextField10.setText(selectedEmployee.getEmail());
-        jTextField11.setText(selectedEmployee.getPhoto().getAbsolutePath());
-        ImageIcon imIco = new ImageIcon(selectedEmployee.getPhoto().toString());
+        jTextField1.setText(selectedEmployee.getname());
+        jTextField2.setText(selectedEmployee.getemployee_Id());
+        jTextField3.setText(selectedEmployee.getage());
+        jTextField4.setText(selectedEmployee.getgender());
+        jTextField5.setText(selectedEmployee.getstart_Date());
+        jTextField6.setText(selectedEmployee.getlevel());
+        jTextField7.setText(selectedEmployee.getteam_Info());
+        jTextField8.setText(selectedEmployee.getposition_Title());
+        jTextField13.setText(selectedEmployee.getcountry_Code());
+        jTextField9.setText(selectedEmployee.getcell_Phone_Number());
+        jTextField10.setText(selectedEmployee.getemail());
+        jTextField11.setText(selectedEmployee.getphoto().getAbsolutePath());
+        ImageIcon imIco = new ImageIcon(selectedEmployee.getphoto().toString());
             Image imFit = imIco.getImage();
             Image imgFit = imFit.getScaledInstance(label.getWidth(), label.getHeight(), Image.SCALE_SMOOTH);
             ImageIcon icon = new ImageIcon(imgFit);
@@ -458,7 +492,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         
         if (selectedRowIndex<0) {
             
-            JOptionPane.showMessageDialog(this, "please select a row to delete");
+            JOptionPane.showMessageDialog(this, "Please select a row to delete");
             return;
             
         }
@@ -467,7 +501,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         
         history.deletedetails(selectedEmployee);
         
-        JOptionPane.showMessageDialog(this, "deleted");
+        JOptionPane.showMessageDialog(this, "Deleted");
         
         jTextField1.setText("");
         jTextField2.setText("");
@@ -489,92 +523,97 @@ public class ViewJPanel extends javax.swing.JPanel {
 
     private void updateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateActionPerformed
         // TODO add your handling code here:
-        String Name = jTextField1.getText();
-        String Employee_Id = jTextField2.getText();
-        String Age = jTextField3.getText();
-        String Gender = jTextField4.getText();
-        String Date = jTextField5.getText();
-        String Level = jTextField6.getText();
-        String Team_Info = jTextField7.getText();
-        String Position_Title = jTextField8.getText();
-        String Country_code = jTextField13.getText();
-        String Cell_Phone = jTextField9.getText();
-        String Email = jTextField10.getText();
+        String name = jTextField1.getText();
+        String employee_Id = jTextField2.getText();
+        String age = jTextField3.getText();
+        String gender = jTextField4.getText();
+        String date = jTextField5.getText();
+        String level = jTextField6.getText();
+        String team_Info = jTextField7.getText();
+        String position_Title = jTextField8.getText();
+        String country_Code = jTextField13.getText();
+        String cell_Phone = jTextField9.getText();
+        String email = jTextField10.getText();
         File path = new File(jTextField11.getText());
         
        
         
         
-        if (Name.equals("")) {
+        if (name.equals("")) {
             JOptionPane.showMessageDialog(this,"Employee Name is Mandatory");
         
-        }else if (Employee_Id.equals("")){
+        }else if (employee_Id.equals("")){
             JOptionPane.showMessageDialog(this,"Employee_Id is Mandatory");
             
-        }else if (Age.equals("")) {
+        }else if (age.equals("")) {
             JOptionPane.showMessageDialog(this,"Employee Age is Mandatory");
             
-        }else if (Gender.equals("")) {
+        }else if (gender.equals("")) {
             JOptionPane.showMessageDialog(this,"Employee Gender is Mandatory");
             
-        }else if (Date.equals("")) {
+        }else if (date.equals("")) {
             JOptionPane.showMessageDialog(this,"Employee Start_Date is Mandatory");
             
-        }else if (Level.equals("")) {
+        }else if (level.equals("")) {
             JOptionPane.showMessageDialog(this,"Employee Level is Mandatory");
             
-        }else if (Team_Info.equals("")) {
+        }else if (team_Info.equals("")) {
             JOptionPane.showMessageDialog(this,"Employee Team_Info is Mandatory");
             
-        }else if (Position_Title.equals("")) {
-            JOptionPane.showMessageDialog(this,"Employee Pposition_Title is Mandatory");
+        }else if (position_Title.equals("")) {
+            JOptionPane.showMessageDialog(this,"Employee Position_Title is Mandatory");
             
-        }else if (Cell_Phone.equals("")) {
+        }else if (country_Code.equals("")){
+            JOptionPane.showMessageDialog(this, "Country code is Mandatory");
+            
+        }else if (cell_Phone.equals("")) {
             JOptionPane.showMessageDialog(this,"Employee Cell_Phone is Mandatory");
             
-        }else if (Email.equals("")) {
+        }else if (email.equals("")) {
             JOptionPane.showMessageDialog(this,"Employee Email is Mandatory");
             
-        }else if (!Cell_Phone.matches("[0-9]*$")){
-            JOptionPane.showMessageDialog(this, "Enter a valid cell number");
-        
-        }else if ( Cell_Phone.length()!=10){
-           
-            JOptionPane.showMessageDialog(this,"Enter a valid 10 Digit cell number");
-        }else if (!Employee_Id.matches("[0-9]+$")){
+        }else if (!employee_Id.matches("[0-9]+$")){
             JOptionPane.showMessageDialog(this, "Enter a Valid Employee_ID");
         
-        }else if (!Age.matches("[0-9]{1,2}$")){
+        }else if (!age.matches("[0-9]{1,2}$")){
             JOptionPane.showMessageDialog(this, "Enter a valid Age");
         
-        } else if (!Email.matches("^[a-zA-Z0-9_+&*-]+(?:\\."+"[a-zA-Z0-9_+&*-]+)*@"+"(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$")) {
+        }else if (!date.matches("^(1[0-2]|0[1-9])-(3[01]|[12][0-9]|0[1-9])-[0-9]{4}$")) {
+            JOptionPane.showMessageDialog(this,"Enter the date in the metioned format");
+            
+        }else if (!country_Code.matches("^[+]"+"[0-9]{1,2}$")) {
+            JOptionPane.showMessageDialog(this, "Enter a valid country code");
+        
+        } else if (!cell_Phone.matches("[0-9]*$")){
+            JOptionPane.showMessageDialog(this, "Enter a valid cell number");
+        
+        }else if ( cell_Phone.length()!=10){
+           
+            JOptionPane.showMessageDialog(this,"Enter a valid 10 Digit cell number");
+        
+        } else if (!email.matches("^[a-zA-Z0-9_+&*-]+(?:\\."+"[a-zA-Z0-9_+&*-]+)*@"+"(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$")) {
             JOptionPane.showMessageDialog(this, "Invalid Mail");
         
         } else if (label.getIcon()==null){
             JOptionPane.showMessageDialog(this,"Please Upload the photo");
          
-        } else if (!Date.matches("^(1[0-2]|0[1-9])-(3[01]|[12][0-9]|0[1-9])-[0-9]{4}$")) {
-            JOptionPane.showMessageDialog(this,"Enter the date in the metioned format");
-            
-        }else if (!Country_code.matches("^[+]"+"[0-9]{2}$")) {
-            JOptionPane.showMessageDialog(this, "Enter a valid country code");
-        
         } else {
+            
             int i = jTable1.getSelectedRow();
         DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
         EmployeeDetails eh = (EmployeeDetails)model.getValueAt(i,0 );
-        eh.setName(Name);
-        eh.setEmployee_ID(Employee_Id);
-        eh.setAge(Age);
-        eh.setGender(Gender);
-        eh.setStart_date(Date);
-        eh.setLevel(Level);
-        eh.setTeam_INFO(Team_Info);
-        eh.setPosition_Title(Position_Title);
-        eh.setCountry_Code(Country_code);
-        eh.setCell_Phone_number(Cell_Phone);
-        eh.setEmail(Email);
-        eh.setPhoto(path);
+        eh.setname(name);
+        eh.setemployee_Id(employee_Id);
+        eh.setage(age);
+        eh.setgender(gender);
+        eh.setstart_Date(date);
+        eh.setlevel(level);
+        eh.setteam_Info(team_Info);
+        eh.setposition_Title(position_Title);
+        eh.setcountry_Code(country_Code);
+        eh.setcell_Phone_Number(cell_Phone);
+        eh.setemail(email);
+        eh.setphoto(path);
         
 //        int i = jTable1.getSelectedRow();
 //        DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
@@ -635,9 +674,9 @@ public class ViewJPanel extends javax.swing.JPanel {
         int selected = fileChooser.showOpenDialog(this);
         if (selected == JFileChooser.APPROVE_OPTION) {
             File file = fileChooser.getSelectedFile();
-            String imgpath = null;
-            imgpath = file.getAbsolutePath();
-            jTextField11.setText(imgpath);
+            String imgPath = null;
+            imgPath = file.getAbsolutePath();
+            jTextField11.setText(imgPath);
             ImageIcon imIco = new ImageIcon(file.toString());
             Image imFit = imIco.getImage();
             Image imgFit = imFit.getScaledInstance(label.getWidth(), label.getHeight(), Image.SCALE_SMOOTH);
@@ -744,17 +783,17 @@ public class ViewJPanel extends javax.swing.JPanel {
             
             Object[] row = new Object[12];        
             row[0] = ed;
-            row[1] = ed.getEmployee_ID();
-            row[2] = ed.getAge();
-            row[3] = ed.getGender();    
-            row[4] = ed.getStart_date();
-            row[5] = ed.getLevel();
-            row[6] = ed.getTeam_INFO();
-            row[7] = ed.getPosition_Title();
-            row[8] = ed.getCountry_Code();
-            row[9] = ed.getCell_Phone_number();
-            row[10] = ed.getEmail();
-            row[11] = ed.getPhoto().getAbsoluteFile();
+            row[1] = ed.getemployee_Id();
+            row[2] = ed.getage();
+            row[3] = ed.getgender();    
+            row[4] = ed.getstart_Date();
+            row[5] = ed.getlevel();
+            row[6] = ed.getteam_Info();
+            row[7] = ed.getposition_Title();
+            row[8] = ed.getcountry_Code();
+            row[9] = ed.getcell_Phone_Number();
+            row[10] = ed.getemail();
+            row[11] = ed.getphoto().getAbsoluteFile();
             
             model.addRow(row);
             

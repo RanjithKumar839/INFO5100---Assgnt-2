@@ -13,118 +13,118 @@ import java.io.File;
  */
 public class EmployeeDetails {
     
-    private String Name;
-    private String Employee_ID;
-    private String Age;
-    private String Gender;
-    private String Start_date;
-    private String Level;
-    private String Team_INFO;
-    private String Position_Title;
-    private String Country_Code;
-    private String Cell_Phone_number;
-    private String Email;
-    private File Photo;
+    private String name;
+    private String employee_Id;
+    private String age;
+    private String gender;
+    private String start_Date;
+    private String level;
+    private String team_Info;
+    private String position_Title;
+    private String country_Code;
+    private String cell_Phone_Number;
+    private String email;
+    private File photo;
 
-    public String getCountry_Code() {
-        return Country_Code;
+    public String getcountry_Code() {
+        return country_Code;
     }
 
-    public void setCountry_Code(String Country_Code) {
-        this.Country_Code = Country_Code;
+    public void setcountry_Code(String country_Code) {
+        this.country_Code =country_Code;
     }
 
-    public String getName() {
-        return Name;
+    public String getname() {
+        return name;
     }
 
-    public void setName(String Name) {
-        this.Name = Name;
+    public void setname(String name) {
+        this.name = name;
     }
 
-    public String getEmployee_ID() {
-        return Employee_ID;
+    public String getemployee_Id() {
+        return employee_Id;
     }
 
-    public void setEmployee_ID(String Employee_ID) {
-        this.Employee_ID = Employee_ID;
+    public void setemployee_Id(String employee_Id) {
+        this.employee_Id =employee_Id;
     }
 
-    public String getAge() {
-        return Age;
+    public String getage() {
+        return age;
     }
 
-    public void setAge(String Age) {
-        this.Age = Age;
+    public void setage(String age) {
+        this.age = age;
     }
 
-    public String getGender() {
-        return Gender;
+    public String getgender() {
+        return gender;
     }
 
-    public void setGender(String Gender) {
-        this.Gender = Gender;
+    public void setgender(String gender) {
+        this.gender = gender;
     }
 
-    public String getStart_date() {
-        return Start_date;
+    public String getstart_Date() {
+        return start_Date;
     }
 
-    public void setStart_date(String Start_date) {
-        this.Start_date = Start_date;
+    public void setstart_Date(String start_Date) {
+        this.start_Date = start_Date;
     }
 
-    public String getLevel() {
-        return Level;
+    public String getlevel() {
+        return level;
     }
 
-    public void setLevel(String Level) {
-        this.Level = Level;
+    public void setlevel(String level) {
+        this.level = level;
     }
 
-    public String getTeam_INFO() {
-        return Team_INFO;
+    public String getteam_Info() {
+        return team_Info;
     }
 
-    public void setTeam_INFO(String Team_INFO) {
-        this.Team_INFO = Team_INFO;
+    public void setteam_Info(String team_Info) {
+        this.team_Info = team_Info;
     }
 
-    public String getPosition_Title() {
-        return Position_Title;
+    public String getposition_Title() {
+        return position_Title;
     }
 
-    public void setPosition_Title(String Position_Title) {
-        this.Position_Title = Position_Title;
+    public void setposition_Title(String position_Title) {
+        this.position_Title = position_Title;
     }
 
-    public String getCell_Phone_number() {
-        return Cell_Phone_number;
+    public String getcell_Phone_Number() {
+        return cell_Phone_Number;
     }
 
-    public void setCell_Phone_number(String Cell_Phone_number) {
-        this.Cell_Phone_number = Cell_Phone_number;
+    public void setcell_Phone_Number(String cell_Phone_Number) {
+        this.cell_Phone_Number = cell_Phone_Number;
     }
 
-    public String getEmail() {
-        return Email;
+    public String getemail() {
+        return email;
     }
 
-    public void setEmail(String Email) {
-        this.Email = Email;
+    public void setemail(String email) {
+        this.email = email;
     }
 
-    public File getPhoto() {
-        return Photo;
+    public File getphoto() {
+        return photo;
     }
 
-    public void setPhoto(File Photo) {
-        this.Photo = Photo;
+    public void setphoto(File photo) {
+        this.photo = photo;
     }
     
     @Override
     public  String toString(){
-        return Name;
+        return name;
     }
 
    
