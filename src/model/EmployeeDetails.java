@@ -21,9 +21,18 @@ public class EmployeeDetails {
     private String Level;
     private String Team_INFO;
     private String Position_Title;
+    private String Country_Code;
     private String Cell_Phone_number;
     private String Email;
     private File Photo;
+
+    public String getCountry_Code() {
+        return Country_Code;
+    }
+
+    public void setCountry_Code(String Country_Code) {
+        this.Country_Code = Country_Code;
+    }
 
     public String getName() {
         return Name;
